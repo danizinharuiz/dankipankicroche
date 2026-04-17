@@ -1,0 +1,253 @@
+/*----Barra de Navegação --*/
+
+header {
+	background: #e6d3d8;
+	padding: 15px 0px;
+	height: 200px;
+}
+
+.slogan {
+	text-align: center;
+}
+
+html, body  {
+	height: 100%;
+}
+
+.navbar-secondary .nav-pills .nav-link {
+	color: #4a3f38;
+	font-family: "Garamond", serif;
+	font-size: 1.2em;
+	margin-left: 2px;
+	display: block;
+	
+	
+}
+
+
+
+.navbar-secondary .nav-pills .nav-link:hover {
+	color: #4a3f38;
+	background: #e59cbc;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+	display: block;
+}
+
+.navbar-secondary .nav-pills .selecionado a{
+	color: #4a3f38;
+	background: #e59cbc;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+	display: block;
+}
+
+
+ .nav-pills .navbar-toggler {
+ 	color: #e6d3d8;
+
+}
+
+
+
+
+
+
+/*--Capa Home --*/
+
+
+#artesanal, #elegancia, #sustentabilidade {
+        background: #e59cbc;
+        color: #4a3f38;
+	    font-size: 1.2em;
+	    font-family: "Garamond", serif;
+	}
+
+.texto {
+	max-width: 500px;
+}
+
+#artesanal .texto {
+	padding-right: 20px;
+
+}
+
+#artesanal {
+        padding-top: 20px;
+}
+
+#sustentabilidade {
+	    padding-bottom: 20px;
+}
+
+/*--Sobre--*/
+
+#sobre {
+	background: #e59cbc;
+        color: #4a3f38;
+	    font-size: 1.2em;
+	    font-family: "Garamond", serif;
+		padding-top: 30px;
+}
+
+#sobre .texto {
+	padding-right: 100px;
+	text-align: justify;
+}
+
+#sobre h3 {
+	padding-bottom: 50px;
+}
+
+.texto p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#sobre .imagem {
+	padding: 100px;
+}
+
+.imagem img {
+    border-radius: 50%;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+}
+ /*--Rodapé--*/
+
+ footer {
+ 	background: #e6d3d8;
+ 	padding: 15px 0px;
+	height: 150px;
+}
+
+.menu-rodape li a {
+	color: #4a3f38;
+	font-family: "Garamond", serif;
+	font-size: 1.2em;
+	display: block;
+
+}
+
+.menu-rodape li a:hover {
+	color: #4a3f38;
+	background: #e59cbc;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+	text-decoration: none;
+	display: block;
+
+}
+ 
+footer ul{
+	list-style: none;
+}
+
+
+.btn-outline-rosa {
+	color: #4a3f38;
+ }
+
+ .btn-outline-rosa:hover {
+ 	color: #4a3f38;
+ }
+
+ 
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap*/
+@media (max-width: 575.98px) {
+	.slogan {
+		max-width: 160px;
+		text-align: center;
+		margin-top: -20px;
+		position: relative;
+	}
+
+	#elegancia {
+		padding: 30px 0;
+	}
+
+	#elegancia h3 p {
+		padding-top: 20px;
+	}
+
+	footer {
+		height: 400px;
+	}
+
+	.navbar-secondary .nav-pills .nav-link {
+            display: block;
+	    color: #4a3f38;
+	    font-weight: bold;
+	    background: #e6d3d8;
+	    font-family: "Garamond", serif;
+	    font-size: 1.0em;
+	    padding: 3px;
+	    
+
+}
+
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+	
+
+	.slogan {
+		max-width: 200px;
+		text-align: center;
+	}
+
+	#elegancia {
+		padding: 30px 0;
+	}
+
+
+	#elegancia h3 p {
+		padding-top: 20px;
+	} 
+
+
+
+	
+}	
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+	
+	header, html, body, footer { 
+		min-width: 768px;
+	
+	}
+
+	.logo {
+		margin-top: -15px; 
+	}
+	
+	.slogan {
+		max-width: 300px;
+	}
+
+	
+		
+
+	
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.slogan {
+		min-width: 300px;
+	}
+
+	.logo {
+		max-width: 200px;
+
+	}
+	
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	
+ }
