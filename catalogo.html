@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+	<!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/1e631c2bc0.js" crossorigin="anonymous"></script>
+
+    <!-- HTML5Shiv -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+
+    <title>Danki Panki Crochê - Arte entre Fios</title>
+  </head>
+
+  <body>
+  	<header><!--início cabeçalho-->
+      <nav class="navbar navbar-expand-lg navbar-secondary">
+  		<div class="container">
+            <a href="index.html" class="navbar-brand">
+             <img src="imagens/logo.png" class="logo" width="150">
+            </a>
+             <a href="sobre.html" class="navbar-brand">
+             <img src="imagens/slogan.png" class="slogan ml-auto" width="400">
+             </a>
+
+             <button class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal">
+             <i class="fas fa-bars text-white"></i>
+           </button>
+           
+
+         
+             <div class="collapse navbar-collapse" id="menu-principal">
+             <ul class="nav nav-pills ml-auto">
+                    <li class="nav-item">
+                      <a href="index.html" class="nav-link">Home</a>
+                    </li> 
+                    <li class="nav-item selecionado">
+                    <a href="catalogo.html" class="nav-link">Catálogo</a>  
+                    </li>   
+                    <li class="nav-item">
+                    	<a href="sobre.html" class="nav-link">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                    	<a href="moda.html" class="nav-link">Moda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="btn btn-outline-rosa ml-3">
+                          <i class="fa-brands fa-whatsapp fa-lg"></i>
+                        </a> 
+                    </li>
+                    <li class="nav-item">
+                        <a href="shoppcar.html" class="btn btn-outline-rosa ml-3">
+                          <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                    </li>
+                  </ul>
+             </div>
+           </div>
+         </nav>
+  	</header> <!--Fim Cabeçalho-->
+
+  	
+
+     <section id="catalogo">
+      <div class="container">
+
+               <h2 class="text-center mb-4">Catálogo</h2>
+          
+          <!--Filtros-->
+          <div class="text-center ">
+            <button onclick="filtrar('tudo')" class="btn btn-outline-rosa">Todos</button>
+            <button onclick="filtrar('bolsa')" class="btn btn-outline-rosa">Bolsas</button>
+            <button onclick="filtrar('sousplat')" class="btn btn-outline-rosa">Jogos Americanos</button>
+            <button onclick="filtrar('cesto')" class="btn btn-outline-rosa">Cestos</button>
+          </div>
+
+          <!--PRODUTOS-->
+          <div class="row">
+
+            <!--PRODUTO 1-->
+           <div class="col-md-4 mb-4 produto bolsa">
+             <div class="card text-center">
+                <img src="imagens/olivaroyale.jpg"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Bolsa Oliva Royale - Coleção Essência Natural</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="oliva-royale.html" class="btn btn-outline-rosa">
+                            Quero essa
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+           <!--PRODUTO 2-->
+           <div class="col-md-4 mb-4 produto bolsa">
+             <div class="card text-center">
+                <img src="imagens/verdeserena.png"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Bolsa Verde Serena - Coleção Essência Natural</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="verde-serena.html" class="btn btn-outline-rosa">
+                            Quero essa
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+           <!--PRODUTO 3-->
+           <div class="col-md-4 mb-4 produto bolsa">
+             <div class="card text-center">
+                <img src="imagens/auroracoral.jpg"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Bolsa Aurora Coral - Coleção Elegância Viva</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="aurora-coral" class="btn btn-outline-rosa">
+                            Quero essa
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+           <!--PRODUTO 4-->
+           <div class="col-md-4 mb-4 produto bolsa">
+             <div class="card text-center">
+                <img src="imagens/rosecharm.png"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Bolsa Rose Charm - Coleção Elegância Viva</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="rose-charm.html" class="btn btn-outline-rosa">
+                            Quero essa
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+            <!--PRODUTO 5-->
+           <div class="col-md-4 mb-4 produto bolsa">
+             <div class="card text-center">
+                <img src="imagens/areianobre.png"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Bolsa Areia Nobre - Coleção Essência Natural</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="areia-nobre.html" class="btn btn-outline-rosa">
+                            Quero essa
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+            <!--PRODUTO 6-->
+           <div class="col-md-4 mb-4 produto bolsa">
+             <div class="card text-center">
+                <img src="imagens/classicabicolor.jpg"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Bolsa Clássica Bicolor - Coleção Elegância Viva</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="classica-bicolor.html" class="btn btn-outline-rosa">
+                            Quero essa
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+            <!--PRODUTO 7-->
+           <div class="col-md-4 mb-4 produto sousplat">
+             <div class="card text-center">
+                <img src="imagens/areiadourada.png"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Areia Dourada - Coleção Casa Elegante</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="areia-dourada.html" class="btn btn-outline-rosa">
+                            Quero esse
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+           <!--PRODUTO 8-->
+           <div class="col-md-4 mb-4 produto cesto">
+             <div class="card text-center">
+                <img src="imagens/cestograndefrente.jpg"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Cesto Doce Ninho</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="cesto-doce-ninho.html" class="btn btn-outline-rosa">
+                            Quero esse
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+            <!--PRODUTO 9-->
+           <div class="col-md-4 mb-4 produto cesto">
+             <div class="card text-center">
+                <img src="imagens/kitmaternidade.jpeg"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Kit Doce Ninho</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="kit-doce-ninho.html" class="btn btn-outline-rosa">
+                            Quero esse
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+
+            <!--PRODUTO 10-->
+           <div class="col-md-4 mb-4 produto cesto">
+             <div class="card text-center">
+                <img src="imagens/portaxampu.jpeg"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Kit Doce Ninho</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="ninho-organizador.html" class="btn btn-outline-rosa">
+                            Quero esse
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+
+            <!--PRODUTO 11-->
+           <div class="col-md-4 mb-4 produto cesto">
+             <div class="card text-center">
+                <img src="imagens/kitmultiuso.jpeg"  class="card-img-top">
+                <div class="card-body>"
+                 <h5 class="card-title">Kit Multiuso - Coleção Casa Elegante</h5>
+                 <button class="btn btn-outline-rosa">
+                    <a href="kit-multiuso.html" class="btn btn-outline-rosa">
+                            Quero esse
+                    </a>
+                 </button>
+                </div>
+             </div>
+           </div>
+          
+
+              
+            
+          </div> 
+        </div>
+      </div>
+    </section> <!--fim catalogo-->
+
+         </div>
+
+    <footer class="navbar navbar-expand-md"> <!--inicio rodapé-->
+      <div class="container">
+        <div class="col-md-3">
+          <a href="index.html" class="navbar-brand">
+             <img src="imagens/logo.png" width="142">
+            </a>
+         </div>
+
+         <div class="col-md-3">
+          <ul class="menu-rodape">
+            <li><a href="">Dicas de preservação</a></li>
+            <li><a href="">Contato</a></li>
+            <li><a href="">Trocas e Devoluções</a></li>
+            <li><a href="">Links</a></li>
+          </ul>
+         </div>
+
+         <div class="col-md-3 d-flex justify-content-end">
+          <a href="" class="btn btn-outline-rosa ml-3">
+            <i class="fa-solid fa-square-envelope fa-lg"></i>
+              </a>
+          <a href="" class="btn btn-outline-rosa ml-3">
+             <i class="fa-brands fa-instagram fa-lg"></i>
+              </a>
+          <a href="" class="btn btn-outline-rosa ml-3">
+            <i class="fa-brands fa-whatsapp fa-lg"></i>
+              </a> 
+         </div>
+        
+          <div class="col-md-3 align-self-center">
+           <form class="mt-4 mb-4">
+              <div class="input-group input-group-sm">
+                <input type="text" placeholder="Seu e-mail" class="form-control">
+                <div class="input-group-append">
+                  <button type="button" class="btn btn-outline-rosa">Cadastre-se</button>
+                </div>
+              </div>
+            </form>
+          
+        </div>
+      </div>
+    </footer> <!--fim rodapé-->
+  
+
+
+ <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+     
+    <script>
+function filtrar(categoria) {
+  let produtos = document.querySelectorAll(".produto");
+
+  produtos.forEach(function(produto) {
+    if (categoria === "tudo") {
+        produto.style.display = "block";
+      } else if (produto.classList.contains(categoria)) {
+        produto.style.display = "block";
+      } else {
+        produto.style.display = "none";
+    }
+ });
+}
+</script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+</head>
