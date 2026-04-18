@@ -78,10 +78,10 @@
           
           <!--Filtros-->
           <div class="text-center ">
-            <button onclick="filtrar('tudo')" class="btn btn-outline-rosa">Todos</button>
-            <button onclick="filtrar('bolsa')" class="btn btn-outline-rosa">Bolsas</button>
-            <button onclick="filtrar('sousplat')" class="btn btn-outline-rosa">Jogos Americanos</button>
-            <button onclick="filtrar('cesto')" class="btn btn-outline-rosa">Cestos</button>
+            <button onclick="filtrar('tudo', this)" class="btn btn-link filtro">Todos</button>
+            <button onclick="filtrar('bolsa', this)" class="btn btn-link filtro">Bolsas</button>
+            <button onclick="filtrar('sousplat', this)" class="btn btn-link filtro">Jogos Americanos</button>
+            <button onclick="filtrar('cesto', this)" class="btn btn-link filtro">Cestos</button>
           </div>
 
           <!--PRODUTOS-->
@@ -91,11 +91,12 @@
            <div class="col-md-4 mb-4 produto bolsa">
              <div class="card text-center">
                 <img src="imagens/olivaroyale.jpg"  class="card-img-top">
-                <div class="card-body>"
-                 <h5 class="card-title">Bolsa Oliva Royale - Coleção Essência Natural</h5>
+                <div class="card-body">
+                 <h5 class="card-title"> Oliva Royale - Coleção Essência Natural</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="oliva-royale.html" class="btn btn-outline-rosa">
-                            Quero essa
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -105,12 +106,13 @@
            <!--PRODUTO 2-->
            <div class="col-md-4 mb-4 produto bolsa">
              <div class="card text-center">
-                <img src="imagens/verdeserena.png"  class="card-img-top">
-                <div class="card-body>"
-                 <h5 class="card-title">Bolsa Verde Serena - Coleção Essência Natural</h5>
+                <img src="imagens/verdeserena.png"  class="card-img-top" width="300px">
+                <div class="card-body">
+                 <h5 class="card-title">Verde Serena - Coleção Essência Natural</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="verde-serena.html" class="btn btn-outline-rosa">
-                            Quero essa
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -120,12 +122,13 @@
            <!--PRODUTO 3-->
            <div class="col-md-4 mb-4 produto bolsa">
              <div class="card text-center">
-                <img src="imagens/auroracoral.jpg"  class="card-img-top">
-                <div class="card-body>"
-                 <h5 class="card-title">Bolsa Aurora Coral - Coleção Elegância Viva</h5>
+                <img src="imagens/auroracoral.jpg"  class="card-img-top" width="300px">
+                <div class="card-body">
+                 <h5 class="card-title">Aurora Coral - Coleção Elegância Viva</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="aurora-coral" class="btn btn-outline-rosa">
-                            Quero essa
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -136,11 +139,12 @@
            <div class="col-md-4 mb-4 produto bolsa">
              <div class="card text-center">
                 <img src="imagens/rosecharm.png"  class="card-img-top">
-                <div class="card-body>"
-                 <h5 class="card-title">Bolsa Rose Charm - Coleção Elegância Viva</h5>
+                <div class="card-body">
+                 <h5 class="card-title"> Rose Charm - Coleção Elegância Viva</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="rose-charm.html" class="btn btn-outline-rosa">
-                            Quero essa
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -151,11 +155,12 @@
            <div class="col-md-4 mb-4 produto bolsa">
              <div class="card text-center">
                 <img src="imagens/areianobre.png"  class="card-img-top">
-                <div class="card-body>"
-                 <h5 class="card-title">Bolsa Areia Nobre - Coleção Essência Natural</h5>
+                <div class="card-body">
+                 <h5 class="card-title">Areia Nobre - Coleção Essência Natural</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="areia-nobre.html" class="btn btn-outline-rosa">
-                            Quero essa
+                             Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -166,11 +171,12 @@
            <div class="col-md-4 mb-4 produto bolsa">
              <div class="card text-center">
                 <img src="imagens/classicabicolor.jpg"  class="card-img-top">
-                <div class="card-body>"
-                 <h5 class="card-title">Bolsa Clássica Bicolor - Coleção Elegância Viva</h5>
+                <div class="card-body">
+                 <h5 class="card-title">Clássica Bicolor - Coleção Elegância Viva</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="classica-bicolor.html" class="btn btn-outline-rosa">
-                            Quero essa
+                             Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -181,11 +187,12 @@
            <div class="col-md-4 mb-4 produto sousplat">
              <div class="card text-center">
                 <img src="imagens/areiadourada.png"  class="card-img-top">
-                <div class="card-body>"
+                <div class="card-body">
                  <h5 class="card-title">Areia Dourada - Coleção Casa Elegante</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="areia-dourada.html" class="btn btn-outline-rosa">
-                            Quero esse
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -196,11 +203,12 @@
            <div class="col-md-4 mb-4 produto cesto">
              <div class="card text-center">
                 <img src="imagens/cestograndefrente.jpg"  class="card-img-top">
-                <div class="card-body>"
+                <div class="card-body">
                  <h5 class="card-title">Cesto Doce Ninho</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="cesto-doce-ninho.html" class="btn btn-outline-rosa">
-                            Quero esse
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -211,11 +219,12 @@
            <div class="col-md-4 mb-4 produto cesto">
              <div class="card text-center">
                 <img src="imagens/kitmaternidade.jpeg"  class="card-img-top">
-                <div class="card-body>"
+                <div class="card-body">
                  <h5 class="card-title">Kit Doce Ninho</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="kit-doce-ninho.html" class="btn btn-outline-rosa">
-                            Quero esse
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -227,11 +236,12 @@
            <div class="col-md-4 mb-4 produto cesto">
              <div class="card text-center">
                 <img src="imagens/portaxampu.jpeg"  class="card-img-top">
-                <div class="card-body>"
+                <div class="card-body">
                  <h5 class="card-title">Kit Doce Ninho</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="ninho-organizador.html" class="btn btn-outline-rosa">
-                            Quero esse
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -242,11 +252,12 @@
            <div class="col-md-4 mb-4 produto cesto">
              <div class="card text-center">
                 <img src="imagens/kitmultiuso.jpeg"  class="card-img-top">
-                <div class="card-body>"
+                <div class="card-body">
                  <h5 class="card-title">Kit Multiuso - Coleção Casa Elegante</h5>
+                 <p class="preco">A partir de R$ ---</p>
                  <button class="btn btn-outline-rosa">
                     <a href="kit-multiuso.html" class="btn btn-outline-rosa">
-                            Quero esse
+                            Ver Detalhes
                     </a>
                  </button>
                 </div>
@@ -312,18 +323,30 @@
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
      
     <script>
-function filtrar(categoria) {
-  let produtos = document.querySelectorAll(".produto");
+function filtrar(tipo, elemento) {
 
-  produtos.forEach(function(produto) {
-    if (categoria === "tudo") {
-        produto.style.display = "block";
-      } else if (produto.classList.contains(categoria)) {
-        produto.style.display = "block";
+  // botão ativo
+  document.querySelectorAll('.filtro').forEach(btn => {
+    btn.classList.remove('selecionado');
+  });
+  elemento.classList.add('selecionado');
+
+  // produtos
+  let produtos = document.querySelectorAll('.produto');
+
+  produtos.forEach(produto => {
+
+    if (tipo === 'tudo') {
+      produto.style.display = '';
+    } else {
+      if (produto.classList.contains(tipo)) {
+        produto.style.display = '';
       } else {
-        produto.style.display = "none";
+        produto.style.display = 'none';
+      }
     }
- });
+
+  });
 }
 </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

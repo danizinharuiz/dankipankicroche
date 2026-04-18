@@ -56,7 +56,8 @@ html, body  {
 /*--Capa Home --*/
 
 
-#artesanal, #elegancia, #sustentabilidade {
+#artesanal, #elegancia, #sustentabilidade, 
+#catalogo {
         background: #e59cbc;
         color: #4a3f38;
 	    font-size: 1.2em;
@@ -84,10 +85,10 @@ html, body  {
 
 #sobre {
 	background: #e59cbc;
-        color: #4a3f38;
-	    font-size: 1.2em;
-	    font-family: "Garamond", serif;
-		padding-top: 30px;
+    color: #4a3f38;
+	font-size: 1.2em;
+	font-family: "Garamond", serif;
+	padding-top: 30px;
 }
 
 #sobre .texto {
@@ -112,6 +113,139 @@ html, body  {
     border-radius: 50%;
     box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
 }
+
+/*--Catalogo--*/
+
+#catalogo {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.text-center {
+	padding-bottom: 40px;
+	margin-top: 20px;
+}
+
+.btn-link {
+	color: #4a3f38;
+	margin-top: -20px;
+	padding: -20px 10px 10px 10px;
+	font-size: 1.2em;
+	margin-left: 2px;
+	display: inline;
+}
+
+.btn-link:hover {
+	color: #4a3f38;
+	background: #e6d3d8;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+	text-decoration: none;
+
+}
+
+.btn-link.selecionado {
+	color: #4a3f38;
+	background: #e6d3d8;
+	font-family: "Garamond", serif;
+	font-size: 1em;
+	text-decoration: none;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.card {
+	background-color: #e6d3d8;
+	border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+
+.card-title {
+	color: #4a3f38;
+	font-size: 0.95em;
+	font-weight: 600;
+}
+
+.card-img-top {
+ transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+ transform: scale(1.05);
+}
+
+#catalogo .btn-outline-rosa {
+	background-color: #e59cbc;
+	color: #4a3f38;
+	border-radius: 10px;
+	border: none;
+	padding-top: 10px;
+	padding: 6px;
+	transition: all 0.3s ease;
+}
+
+#catalogo .btn-outline-rosa:hover{
+	background-color: #a0257d;
+	color: white;
+	border-radius: 10px;
+}
+
+/*--Oliva Royale--*/
+
+.row {
+  align-items: center;
+}
+
+#oliva-royale {
+    background: #e59cbc;
+    color: #4a3f38;
+	font-size: 1.2em;
+	font-family: "Garamond", serif;
+	padding-top: 30px;
+}
+
+
+#oliva-royale img {
+	max-width: 100%;
+	height: 450px;
+	border-radius: 10px;
+	padding-bottom: 60px;
+}
+
+.card-text {
+	line-height: 1.6;
+    max-width: 500px;
+}
+
+#oliva-royale .btn-outline-rosa {
+	background-color: #a0257d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin: 30px;
+}
+
+#oliva-royale .btn-outline-rosa:hover {
+	 background-color: #7d1c61;
+     transform: scale(1.05);
+}
+
+.col-md-6 p {
+  line-height: 1.6;
+}
+
  /*--Rodapé--*/
 
  footer {
@@ -143,17 +277,31 @@ footer ul{
 }
 
 
-.btn-outline-rosa {
+.btn-outline-rosa  {
 	color: #4a3f38;
- }
+}	
 
- .btn-outline-rosa:hover {
+.btn-outline-rosa:hover {
  	color: #4a3f38;
  }
 
- 
+.btn-cadastro {
+	background-color: #e59cbc;
+	border: #e59cbc;
+	border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
 
+.btn-cadastro:hover {
+  background-color: #a0257d;
+  transition: 0.3s;
+}
 
+input:focus {
+  box-shadow: 0 0 0 2px rgba(179, 41, 141, 0.2);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
 /* Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap*/
 @media (max-width: 575.98px) {
