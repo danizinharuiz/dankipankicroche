@@ -201,11 +201,79 @@ html, body  {
 	border-radius: 10px;
 }
 
-/*--Oliva Royale--*/
+/*--Produtos--*/
 
 .row {
   align-items: center;
 }
+
+.card-text {
+	line-height: 1.6;
+    max-width: 500px;
+	text-align: justify;
+}
+
+.col-md-6 p {
+  line-height: 1.6;
+}
+
+/*--Origami Essencia --*/
+
+.carousel-item {
+  text-align: center;
+}
+
+#origami-essencia {
+    background: #e59cbc;
+    color: #4a3f38;
+	font-size: 1.2em;
+	font-family: "Garamond", serif;
+	padding-top: 30px;
+}
+
+
+#origami-essencia  img {
+	height: 450px;
+	width: 100%;
+	max-width: 350px;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	display: block;
+}
+
+#origami-essencia .btn-outline-rosa {
+	background-color: #a0257d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin: 30px;
+}
+
+#origami-essencia  .btn-outline-rosa a {
+	background-color: #a0257d;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin-top: 20px;
+}
+
+#origami-essencia .btn-outline-rosa:hover {
+	 background-color: #7d1c61;
+     transform: scale(1.05);
+}
+
+#origami-essencia .btn-outline-rosa:hover a {
+	background-color: #7d1c61;
+	 text-decoration: none;
+	 transform: translateX(-3px);
+     transition: 0.2s;
+}
+
+
+/*--Oliva Royale--*/
 
 #oliva-royale {
     background: #e59cbc;
@@ -215,18 +283,13 @@ html, body  {
 	padding-top: 30px;
 }
 
-
 #oliva-royale img {
 	max-width: 100%;
 	height: 450px;
 	border-radius: 10px;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
-.card-text {
-	line-height: 1.6;
-    max-width: 500px;
-}
 
 #oliva-royale .btn-outline-rosa {
 	background-color: #a0257d;
@@ -237,14 +300,228 @@ html, body  {
 	margin: 30px;
 }
 
+#oliva-royale .btn-outline-rosa a {
+	background-color: #a0257d;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin-top: 20px;
+	
+}
+
 #oliva-royale .btn-outline-rosa:hover {
 	 background-color: #7d1c61;
      transform: scale(1.05);
 }
 
-.col-md-6 p {
-  line-height: 1.6;
+#oliva-royale .btn-outline-rosa:hover a {
+	 background-color: #7d1c61;
+	 text-decoration: none;
+	 transform: translateX(-3px);
+     transition: 0.2s;
 }
+
+/*--Verde-serena--*/
+
+#verde-serena {
+    background: #e59cbc;
+    color: #4a3f38;
+	font-size: 1.2em;
+	font-family: "Garamond", serif;
+	padding-top: 30px;
+}
+
+
+#verde-serena img {
+	
+	height: 500px;
+	width: 400px;
+	border-radius: 10px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+}
+
+#verde-serena .btn-outline-rosa {
+	background-color: #a0257d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin: 30px;
+}
+
+#verde-serena .btn-outline-rosa a {
+	background-color: #a0257d;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin-top: 20px;
+}
+
+#verde-serena .btn-outline-rosa:hover {
+	 background-color: #7d1c61;
+     transform: scale(1.05);
+}
+
+#verde-serena .btn-outline-rosa:hover a {
+	background-color: #7d1c61;
+	 text-decoration: none;
+	 transform: translateX(-3px);
+     transition: 0.2s;
+}
+
+
+/*--Rose charme --*/
+
+#rose-charm {
+    background: #e59cbc;
+    color: #4a3f38;
+	font-size: 1.2em;
+	font-family: "Garamond", serif;
+	padding-top: 30px;
+}
+
+
+#rose-charm  img {
+	height: 470px;
+	width: 400px;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+
+#rose-charm .btn-outline-rosa {
+	background-color: #a0257d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin: 30px;
+}
+
+#rose-charm  .btn-outline-rosa a {
+	background-color: #a0257d;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin-top: 20px;
+}
+
+#rose-charm .btn-outline-rosa:hover {
+	 background-color: #7d1c61;
+     transform: scale(1.05);
+}
+
+#rose-charm  .btn-outline-rosa:hover a {
+	background-color: #7d1c61;
+	 text-decoration: none;
+	 transform: translateX(-3px);
+     transition: 0.2s;
+}
+
+/*--Areia Nobre --*/
+
+#areia-nobre {
+    background: #e59cbc;
+    color: #4a3f38;
+	font-size: 1.2em;
+	font-family: "Garamond", serif;
+	padding-top: 30px;
+}
+
+
+#areia-nobre  img {
+	height: 500px;
+	width: 400px;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+
+#areia-nobre .btn-outline-rosa {
+	background-color: #a0257d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin: 30px;
+}
+
+#areia-nobre  .btn-outline-rosa a {
+	background-color: #a0257d;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin-top: 20px;
+}
+
+#areia-nobre .btn-outline-rosa:hover {
+	 background-color: #7d1c61;
+     transform: scale(1.05);
+}
+
+#areia-nobre  .btn-outline-rosa:hover a {
+	background-color: #7d1c61;
+	 text-decoration: none;
+	 transform: translateX(-3px);
+     transition: 0.2s;
+}
+
+/*--aurora coral --*/
+
+#aurora-coral {
+    background: #e59cbc;
+    color: #4a3f38;
+	font-size: 1.2em;
+	font-family: "Garamond", serif;
+	padding-top: 30px;
+}
+
+
+#aurora-coral img {
+	
+	height: 350px;
+	max-width: 100%;
+	border-radius: 10px;
+	padding-bottom: 30px;
+	padding-left: 40px;
+}
+
+#aurora-coral .btn-outline-rosa {
+	background-color: #a0257d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin: 30px;
+}
+
+#aurora-coral .btn-outline-rosa a {
+	background-color: #a0257d;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.3s;
+	margin-top: 20px;
+}
+
+#aurora-coral .btn-outline-rosa:hover {
+	 background-color: #7d1c61;
+     transform: scale(1.05);
+}
+
+#aurora-coral .btn-outline-rosa:hover a {
+	background-color: #7d1c61;
+	 text-decoration: none;
+	 transform: translateX(-3px);
+     transition: 0.2s;
+}
+
+
 
  /*--Rodapé--*/
 
