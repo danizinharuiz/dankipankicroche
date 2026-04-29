@@ -67,11 +67,7 @@ html, body  {
 
 .texto {
 	max-width: 500px;
-}
-
-#artesanal .texto {
-	padding-right: 20px;
-
+	padding: 30px;
 }
 
 #artesanal {
