@@ -1,6 +1,7 @@
 /*----Barra de Navegação --*/
 
 header {
+	position: relative;
 	background: #e6d3d8;
 	padding: 15px 0px;
 	height: 200px;
